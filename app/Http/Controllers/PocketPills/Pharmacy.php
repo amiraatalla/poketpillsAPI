@@ -48,7 +48,8 @@ class Pharmacy extends Controller
         if ($validated) {
             PharmacyModel::create([
                 'pharmacyId' => $request['pharmacyId'],
-                'pharmacyName'  => $request['pharmacyName']
+                'pharmacyName'  => $request['pharmacyName'],
+                 'userId'  => $request['userId']
             ]);
         }
         else{
