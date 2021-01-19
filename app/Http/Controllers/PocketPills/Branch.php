@@ -62,6 +62,7 @@ class Branch extends Controller
                 'branchCity' => $request['branchCity'],
                 'branchregion' => $request['branchregion'],
                 'branchStreet' => $request['branchStreet'],
+                'userId' => $request['userId'],
             ]);
             
             $id = DB::getPdo()->lastInsertId();

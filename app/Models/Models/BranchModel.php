@@ -18,7 +18,8 @@ class BranchModel extends Model
         'branchCountry',
         'branchCity',
         'branchregion',
-        'branchStreet'
+        'branchStreet',
+        'userId'
         
     ];
 }
