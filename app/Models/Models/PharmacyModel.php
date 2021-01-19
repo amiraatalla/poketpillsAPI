@@ -12,7 +12,9 @@ class PharmacyModel extends Model
     public $timestamps = false;
     protected $fillable=[
         'pharmacyId',
+
         'pharmacyName', 
         'userId',      
+
     ];
 }

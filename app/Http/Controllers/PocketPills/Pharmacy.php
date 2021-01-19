@@ -49,7 +49,9 @@ class Pharmacy extends Controller
             PharmacyModel::create([
                 'pharmacyId' => $request['pharmacyId'],
                 'pharmacyName'  => $request['pharmacyName'],
+
                 'userId'  => $request['userId']
+
             ]);
         }
         else{
